@@ -53,6 +53,15 @@ a.soundbutton:hover {
 	cursor: pointer;
 }
 
+.boardbuttons {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;
+}
+
 @media (max-width: 768px) {
 	a.soundbutton {
 		font-size: 1em;
